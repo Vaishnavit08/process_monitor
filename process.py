@@ -10,6 +10,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 
+
 def is_connected():
     try:
         urllib.request.urlopen('http://216.58.192.142',timeout=1)
